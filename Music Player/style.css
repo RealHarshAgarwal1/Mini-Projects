@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    height: 85%;
+    width: 100%;
+    padding: 5vw 10vw;
+    background-color: rgb(29, 28, 27);
+}
+#left{
+    width: 45%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.843);
+    background-image: url(https://whatsappsstatusvideos.com/wp-content/uploads/2023/12/Animal-Movie-Ranbir-Kapoor-WhatsApp-Status-Video-Download.webp);
+    background-size:cover;
+    background-position: top;
+    border-radius: 2%;
+    border: 5px solid white;
+}
+#right{
+    width: 55%;
+    height: 100%;
+    background-color: #251d1d;
+    padding: 1vh 2vw;
+    border-radius: 2%;
+    box-shadow: 2px 5px  #4d4141b4;
+}
+#right h3{
+    font-size: 45px;
+}
+#right #all-songs{
+    background-color: black;
+    height: 85%;
+    margin-top: 30px;
+    border-radius: 2%;
+}
+.song-card{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid white;
+    padding: 15px 15px;
+}
+.song-card:hover{
+    background-color: rgb(33, 33, 33);
+}
+#all-songs :nth-last-child(1){
+    border-bottom: 2px solid white;
+}
+.song-card .part-1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.song-card img{
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+.song-card h2{
+    font-size: 22px;
+    font-weight:600;
+}
+.song-card h6{
+    font-size: 18pxpx;
+}
+
+#player{
+    height: 15%;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#player h3{
+    background-color: rgb(49, 46, 46);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player h3 i{
+    font-size: 24px;
+}
+#player h3:active{
+    scale: 0.9;
+}
